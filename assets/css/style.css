@@ -1,10 +1,20 @@
+/*------------------------- Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-/** Header **/
+
+/*------------------------- Colours */
+.bg-color-name-title {
+    background-color: rgb(117, 128, 138);
+}
+
+/*------------------------- Heading */
 header {
     margin: 0;
 }
 
-/** Logo image **/
+.heading {
+    margin-left: 50px;
+}
+/*------------------------- Logo image within heading */
 .logo {
     background-image: url("../images/Monica.PNG");
     background-position: center;
@@ -14,4 +24,21 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
 }
