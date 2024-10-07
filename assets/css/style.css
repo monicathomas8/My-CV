@@ -3,21 +3,20 @@
 
 /*------------------------- Colours */
 .bg-color-name-title {
-    background-color: rgb(117, 128, 138);
+    background-color: rgb(81, 88, 94);
 }
 .ui-menu-color-home {
-    background-color: #db9558;
+    background-color: #B04F6D;
 }
 .ui-menu-color-cv {
-    background-color: #b072c9;
+    background-color: #8B66F0;
 }
 .ui-menu-color-contact {
-    background-color: #58a4bf;
+    background-color: #719CF0;
 }
 .ui-menu-color-download {
-    background-color: #757474;
+    background-color: #6367D3;
 }
-
 
 /*------------------------- Heading */
 header {
@@ -27,6 +26,7 @@ header {
 .heading {
     margin-left: 50px;
 }
+
 /*------------------------- Logo image within heading */
 .logo {
     background-image: url("../images/monica2.jpg");
@@ -64,6 +64,9 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -98,4 +101,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*------------------------- Hover.css */
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
