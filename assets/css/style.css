@@ -18,6 +18,14 @@
     background-color: #6367D3;
 }
 
+/*------------------------- Special paddings/margins/text */
+h1,h2,h3,h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*------------------------- Heading */
 header {
     margin: 0;
