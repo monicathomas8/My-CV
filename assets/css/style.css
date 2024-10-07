@@ -35,6 +35,9 @@ h1,h2,h3,h4 {
 .inline-block {
     display: inline-block;
 }
+.row {
+    margin: 0;
+}
 
 /*------------------------- Heading */
 header {
