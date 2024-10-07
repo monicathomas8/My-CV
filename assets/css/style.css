@@ -5,6 +5,19 @@
 .bg-color-name-title {
     background-color: rgb(117, 128, 138);
 }
+.ui-menu-color-home {
+    background-color: #db9558;
+}
+.ui-menu-color-cv {
+    background-color: #b072c9;
+}
+.ui-menu-color-contact {
+    background-color: #58a4bf;
+}
+.ui-menu-color-download {
+    background-color: #757474;
+}
+
 
 /*------------------------- Heading */
 header {
@@ -16,7 +29,7 @@ header {
 }
 /*------------------------- Logo image within heading */
 .logo {
-    background-image: url("../images/Monica.PNG");
+    background-image: url("../images/monica2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,4 +54,17 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
