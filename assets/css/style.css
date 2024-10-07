@@ -55,7 +55,7 @@ h1,h2,h3,h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 20px 20px;
     float: none;
 }
 
@@ -206,4 +206,14 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*------------------------- Three reasons */
+.three-reasons-icon {
+    font-size: 26px;
+    color: #B04F6D;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
