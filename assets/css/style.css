@@ -5,15 +5,23 @@
 .bg-color-name-title {
     background-color: rgb(81, 88, 94);
 }
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #B04F6D;
 }
+
 .ui-menu-color-cv {
     background-color: #8B66F0;
 }
+
 .ui-menu-color-contact {
     background-color: #719CF0;
 }
+
 .ui-menu-color-download {
     background-color: #6367D3;
 }
@@ -22,6 +30,7 @@
 h1,h2,h3,h4 {
     margin: 0;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -35,8 +44,26 @@ h1,h2,h3,h4 {
 .inline-block {
     display: inline-block;
 }
+
 .row {
     margin: 0;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "exo" sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*------------------------- Heading */
