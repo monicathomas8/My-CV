@@ -14,6 +14,10 @@
     background-color: #a185ed;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -71,7 +75,7 @@ h1,h2,h3,h4 {
 
 
 .section-heading {
-    font-family: "exo" sans-serif;
+    font-family: "exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -323,4 +327,35 @@ footer {
     border-radius: 12px;
     content: '';
     background-color:black;
+}
+
+/*------------------------------------------------- Contact form */
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #719CF0;
+}
+
+/*------------------------------------------------- Media Queries */
+@media(min-width:992px) {
+    .center-form {
+        padding-top:30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
