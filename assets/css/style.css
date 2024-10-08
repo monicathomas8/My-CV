@@ -267,6 +267,11 @@ footer {
     position: relative;
 }
 
+.infolinks {
+    text-decoration: none;
+    color: black;
+}
+
 /*------------------------------------------------- CV skills icons */
 .cv-skills {
     font-size: 26px;
