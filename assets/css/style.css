@@ -7,11 +7,11 @@
 }
 
 .bg-color-personal-info {
-    background-color:#B04F6D;
+    background-color:#b8657f;
 }
 
 .bg-color-work-history {
-    background-color: #8B66F0;
+    background-color: #a185ed;
 }
 
 .bg-color-three-reasons {
@@ -19,11 +19,11 @@
 }
 
 .ui-menu-color-home {
-    background-color: #B04F6D;
+    background-color: #b8657f;;
 }
 
 .ui-menu-color-cv {
-    background-color: #8B66F0;
+    background-color: #a185ed;
 }
 
 .ui-menu-color-contact {
@@ -68,6 +68,7 @@ h1,h2,h3,h4 {
     padding: 0 20px 20px;
     float: none;
 }
+
 
 .section-heading {
     font-family: "exo" sans-serif;
