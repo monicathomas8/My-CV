@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <!--Favicon-->
-    <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -39,18 +38,18 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i
-                                        class="fa-solid fa-igloo" aria-hidden="true">
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-igloo"
+                                        aria-hidden="true">
                                     </i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-cv menuitem">
-                                <a href="cv.html" class="hvr-sweep-to-bottom"> <i
-                                        class="fa-solid fa-graduation-cap" aria-hidden="true">
+                                <a href="cv.html" class="hvr-sweep-to-bottom"> <i class="fa-solid fa-graduation-cap"
+                                        aria-hidden="true">
                                     </i><span>CV</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i
-                                        class="fa-regular fa-message" aria-hidden="true">
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa-regular fa-message"
+                                        aria-hidden="true">
                                     </i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-github menuitem">
@@ -68,29 +67,22 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid"></section>
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center">Do you have a project in mind?</h3>
-                <h5 class="uppercase text-center">Let's work together!</h5>
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+
                 <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" 
-                        class="form-control" placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" 
-                        class="form-control" placeholder="youremail@gmailmaybe.com" required/>
-                        <textarea rows="5" name="projectsummary" id="projectsummary" 
-                        class="form-control" placeholder="Project description" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Projet Request</button>
-                            </div>
-                        </div>
-                    </form>
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
                 </div>
 
             </div>
         </div>
+
     </section>
     <footer>
         <div id="footer-details" class="row">
